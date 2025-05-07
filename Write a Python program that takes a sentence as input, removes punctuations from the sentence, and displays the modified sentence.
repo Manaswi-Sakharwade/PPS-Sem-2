@@ -1,0 +1,11 @@
+pun = '''!()-[]{};:'"\,<>./?@#$%^&*_~'''
+
+str = input("")
+
+mod = ""
+
+for char in str:
+	if char not in pun:
+		mod = mod + char
+
+print(mod)
